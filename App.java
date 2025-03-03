@@ -10,7 +10,7 @@ public class App {
         while (true) {
             System.out.println("1) Lisää kirja\n2) Listaa kirjat\n3) Lainaa fiktiokirja\n4) Palauta fiktiokirja\n0) Lopeta ohjelma");
             int choice = scanner.nextInt();
-            scanner.nextLine(); 
+            scanner.nextLine();
 
             if (choice == 0) {
                 System.out.println("Kiitos ohjelman käytöstä.");
