@@ -24,5 +24,10 @@ public abstract class Book {
     }
 
     public int getCopies() {
-        return
+        return copies;
     }
+
+    public void setCopies(int copies) {
+        this.copies = copies;
+    }
+}
